@@ -6,7 +6,25 @@ import { Stack } from "expo-router";
             <Stack.Screen 
             name='home/index' 
             options={{
-                title: 'HomeScreen'
+                title: 'Home Screen'
+            }}
+            />
+            <Stack.Screen 
+            name='Profile/index' 
+            options={{
+                title: 'Perfil'
+            }}
+            />
+            <Stack.Screen 
+            name='productos/index' 
+            options={{
+                title: 'Productos'
+            }}
+            />
+            <Stack.Screen 
+            name='settings/index' 
+            options={{
+                title: 'Ajustes'
             }}
             />
         </Stack>
